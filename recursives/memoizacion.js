@@ -1,6 +1,5 @@
 let contador = 1;
 function fibonacci(num, storage = {}){
-	debugger;
 	contador++;
 	if (storage[num]){
 		return storage[num];
